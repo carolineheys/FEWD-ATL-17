@@ -1,0 +1,72 @@
+header {
+	height: 700px;
+	background: url(../images/header_bg.jpg) no-repeat top center #131e27;
+	padding-top: 32px;
+	text-align: center;
+}
+
+header .logo {
+	text-align: left;
+	color: #fff;
+	padding-left: 200px;
+	font-size: 50px;
+	font-family: sans-serif;
+}
+
+header h2{
+	text-align: center;
+	color: #fff;
+	font-size: 50px;
+	font-family: sans-serif;
+	padding-top: 100px;
+}
+
+.top {
+	background-color: yellow;
+	border: none;
+	font-size: 30px;
+	padding-left: 50px;
+	padding-right: 50px;
+	color: #131e27;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#benefits {
+	padding-top: 70px;
+	padding-left: 200px;
+	padding-right: 400px;
+	padding-bottom: 70px;
+	font-family: sans-serif;
+}
+h3 {
+	color: #131e27;
+	font-size: 30px;
+}
+
+#benefits p, #benefits ul{
+	color: grey;
+	font-size: 30px;
+}
+
+#testimonial {
+	background: url(../images/testimonial_bg.jpg) no-repeat top center #071324;
+	padding: 70px 0px 70px;
+	color: #fff;
+}
+
+blockquote {
+	text-align: center;
+	font-size: 30px;
+	padding-left: 350px;
+	padding-right: 350px;
+}
+
+.speaker {
+	text-align: center;
+	font-size: 30px;
+}
+
+footer {
+	text-align: center;
+}
