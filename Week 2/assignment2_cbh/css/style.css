@@ -5,7 +5,7 @@ header {
 	text-align: center;
 }
 
-header .logo {
+.logo {
 	text-align: left;
 	color: #fff;
 	padding-left: 200px;
@@ -39,12 +39,13 @@ header h2{
 	padding-bottom: 70px;
 	font-family: sans-serif;
 }
+
 h3 {
 	color: #131e27;
 	font-size: 30px;
 }
 
-#benefits p, #benefits ul{
+#benefits p, #benefits ul {
 	color: grey;
 	font-size: 30px;
 }
