@@ -1,0 +1,96 @@
+body {
+	width: 1000px;
+	margin: auto;
+	background-color: #f6f6f6;
+}
+
+header {
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 50px;
+}
+
+h2 {
+	font-family: 'Julius Sans One', sans-serif;
+	padding-top: 40px;
+	padding-bottom: 15px;
+	letter-spacing: 10px;
+}
+
+h3 {
+	font-family: 'Archivo Narrow', sans-serif;
+	font-weight: bold;
+}
+
+.nav {
+	text-decoration: none;
+	color: black;
+	font-family: 'Archivo Narrow', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	letter-spacing: 5px;
+}
+
+a:hover {
+	color: orange;
+}
+
+.rotation {
+	padding-top: 40px;
+}
+
+.headshot {
+	float: left;
+	clear: all;
+}
+
+.about_caroline {
+	float: left;
+	width: 400px;
+	padding-left: 50px;
+	font-family: 'Source Sans Pro', sans-serif;
+	line-height: 150%;
+}
+
+.learn_more {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	padding-left: 120px;
+	letter-spacing: 3px;
+}
+
+.more_about {
+	clear: both;
+	padding-top: 20px;
+}
+
+.education {
+	float: left;
+	width: 500px;
+}
+
+.experience {
+	float: left;
+	width: 500px;
+}
+
+.title {
+	font-family: 'Archivo Narrow', sans-serif;
+	font-weight: bold;
+}
+
+li {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.contact {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+iframe {
+	text-align: ceter;
+}
