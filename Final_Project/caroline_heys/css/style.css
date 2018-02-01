@@ -13,6 +13,13 @@ h1 {
 	font-size: 50px;
 }
 
+.logo {
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 50px;
+	text-decoration: none;
+	color: black;
+}
+
 h2 {
 	font-family: 'Julius Sans One', sans-serif;
 	padding-top: 40px;
@@ -23,6 +30,7 @@ h2 {
 h3 {
 	font-family: 'Archivo Narrow', sans-serif;
 	font-weight: bold;
+	letter-spacing: 1px;
 }
 
 .nav {
@@ -68,12 +76,12 @@ a:hover {
 	padding-top: 20px;
 }
 
-.education {
+#education {
 	float: left;
 	width: 500px;
 }
 
-.experience {
+#experience {
 	float: left;
 	width: 500px;
 }
@@ -93,4 +101,13 @@ li {
 
 iframe {
 	text-align: ceter;
+}
+
+.hide {
+	display: none;
+}
+
+#myCarousel {
+	text-align: center;
+	padding-top: 500px;
 }
