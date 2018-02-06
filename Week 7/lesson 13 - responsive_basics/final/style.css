@@ -1,0 +1,38 @@
+* {
+	box-sizing: border-box;
+}
+
+#container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+header .placeholder {
+	height: 120px;
+	width: 90%;
+	float: left;
+	margin-right: 15px;
+}
+
+nav .placeholder {
+	height: 120px;
+	width: 8%;
+	float: left;
+}
+
+#main-content {
+	height: 400px;
+	clear: both;
+}
+
+#blocks {
+
+}
+
+footer {
+
+}
+
+.placeholder {
+	background-color: #ddd;
+}
