@@ -54,3 +54,61 @@ div.three-container div {
 	float: left;
 	height: 120px;
 }
+
+/** MOBILE **/
+* {
+	box-sizing: border-box;
+}
+
+header, div {
+	border: 3px solid #aaa;
+}
+
+div.container {
+	width: 1200px;
+	max-width: 100%;
+	margin: 10px auto;
+	border: none;
+}
+
+header {
+	margin-bottom: 20px;
+}
+
+header, div.four-container, div.three-container {
+	padding: 5px;
+	overflow: auto;
+}
+
+header div {
+	width: 100%;
+	height: 70px;
+}
+
+header div.hidden {
+	
+}
+
+div.hero {
+	height: 270px;
+	width: 100%;
+}
+
+div.four-container {
+	border: none;
+	padding: 10px;
+}
+
+div.four-container div {
+	width: 100%;
+	height: 120px;
+}
+
+
+/* stack boxes */
+@media screen and (max-width: 800px) {
+	div.three-container div {
+		width: 100%;
+		height: 120px;
+	}
+}
