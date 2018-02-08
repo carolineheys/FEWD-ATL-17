@@ -70,7 +70,7 @@ p {
 	margin: 20px 0 0 0;
 }
 
-.hamburger {
+img {
     display: none;
 }
 
@@ -229,8 +229,9 @@ footer {
 		float: none;
 	}
 
-	.hamburger {
-    	
+	img {
+		display: inline;
+		float: right;
 	}
 
 	#page-header nav {

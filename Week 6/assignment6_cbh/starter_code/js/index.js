@@ -8,7 +8,6 @@
 
 	$.each(cityArr, function(index, value){
 		//console.log(value);
-
 		$('select').append('<option>'+ value +'</option>')
 
 	});
