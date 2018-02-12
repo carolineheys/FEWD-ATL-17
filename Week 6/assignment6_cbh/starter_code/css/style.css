@@ -143,6 +143,59 @@ header {
 /* ADDITIONAL STYLES
 /*******************************************/
 
+/* mobile */
+
+@media screen and (max-width: 768px) {
+  .alignright {
+    float: none;
+    padding: 0 0 10px 10px; /* note the padding around a right floated image */
+  }
+
+  .alignleft {
+    float: none;
+    padding: 0 10px 10px 0; /* note the padding around a left floated image */
+  }
+
+  .container {
+    width: 100%;
+    margin: auto;
+    padding-top: 5em;
+  }
+
+  #city-type {
+    color: #6b6b6c;
+    font-size: 38px;
+    background: #fff;
+    border: 1px solid #111;
+    padding: 0px 30px;
+    display: inline-block;
+    width: 100%;
+    margin-right: 24px;
+    font-family: helvetica, arial, sans-serif;
+    height: 72px;
+    line-height: 74px;
+    vertical-align: middle;
+    box-shadow: #111 0 0 20px;
+  }
+
+  #submit-btn {
+    background: #ffe500;
+    color: #000;
+    font-size: 38px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 1px solid #111;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    height: 72px;
+    line-height: 74px;
+    vertical-align: middle;
+    box-shadow: #111 0 0 50px;
+    font-family: helvetica, arial, sans-serif;
+    cursor: pointer;
+  }
+}
 
 
 
