@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+<body>
+	<h1>Form</h1>
+	<form>
+		<div class="ContactInfo">
+			<h3>Your Contact Info</h3>
+			<p>Your Name</p>
+			<input type="text" name="name" placeholder="First">
+			<input type="text" name="name" placeholder="Last">
+			<p>Phone Number</p>
+			<input type="tel" name="telephone">
+			<p>Address</p>
+			<input type="text" name="streetAddress" placeholder="Street Address">
+			<br>
+			<input type="text" name="streetAddress" placeholder="Address Line 2">
+			<br>
+			<input type="text" name="city" placeholder="City">
+			<input type="text" name="state" placeholder="State">
+			<input type="text" name="postalCode" placeholder="Postal Code">
+		</div>
+
+		<div class="SkillsInterests">
+			<h3>Skills and Interests</h3>
+			<p>Course</p>
+			<select>
+				<option value="course">Select</option>
+				<optgroup label="Web Development">
+					<option value="course">Front-end</option>
+					<option value="course">Back-end</option>
+				</optgroup>
+				<optgroup label="Design">
+					<option value="course">Visual Design</option>
+					<option value="course">User Experience</option>
+				</optgroup>
+			</select>
+			<p>Past Experience</p>
+			<textarea></textarea>
+		</div>
+
+		<div class="AnythingElse">
+			<h3>Anything Else?</h3>
+			<p>Referral</p>
+			<select>
+				<option value="referaral">None</option>
+				<option value="referaral">Friend</option>
+				<option value="referaral">Instructor</option>
+				<option value="referaral">Online</option>
+			</select>
+			<p>Comments</p>
+			<textarea></textarea>
+		</div>
+
+		<div class="Buttons">
+			<input type="submit" value="Save Draft">
+			<input type="submit" value="Submit">
+		</div>
+	</form>
+</body>
+</html>

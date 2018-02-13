@@ -1,0 +1,49 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	padding-left: 50px;
+	padding-top: 10px;
+}
+
+h3 {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+p {
+	font-size: 12px;
+}
+
+div {
+	padding-bottom: 20px;
+}
+
+input[type="text"] {
+	background-color: #FFFFE0;
+	width: 200px;
+}
+
+input[type="tel"] {
+	background-color: #FFFFE0;
+}
+
+input[name="name"] {
+	width: 305px;
+}
+
+input[name="streetAddress"] {
+	width: 620px;
+}
+
+select {
+	background-color: #FFFFE0;
+}
+
+textarea {
+	background-color: #FFFFE0;
+	width: 620px;
+	height: 100px;
+}
+
+.submit {
+	background-color: white;
+}
