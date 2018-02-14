@@ -220,7 +220,7 @@ footer {
 
 /* stack */
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 800px) {
 	#page-header h1 {
 		color: yellow;
 		font-family: 'Merriweather', serif;
